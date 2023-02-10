@@ -9,7 +9,7 @@ class OfficeController extends Controller
 {
     public function index() {
 
-        $offices = Office::get();
+        $offices = Office::with('employee')->get();
 
         return inertia("Offices",[
             'offices' => $offices

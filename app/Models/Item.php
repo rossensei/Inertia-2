@@ -11,7 +11,7 @@ class Item extends Model
 
     protected $fillable = ['office_id', 'name', 'description', 'value', 'status', 'date_acquired'];
 
-    public function offices(){
-        return $this->hasMany('App\Models\Office');
+    public function office(){
+        return $this->belongsTo('App\Models\Office');
     }
 }

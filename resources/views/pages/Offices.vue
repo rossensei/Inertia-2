@@ -70,7 +70,7 @@ defineProps({
                             {{ office.name }}
                         </td>
                         <td class="px-6 py-4">
-                            {{ office.office_head }}
+                            {{ office.employee.first_name }} {{ office.employee.last_name }}
                         </td>
                         <td class="px-6 py-4">
                             {{ office.building }}

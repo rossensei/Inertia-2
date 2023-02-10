@@ -48,7 +48,7 @@ defineProps({
                             #
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            Office #
+                            Office Name
                         </th>
                         <th scope="col" class="px-6 py-3">
                             Name
@@ -76,7 +76,7 @@ defineProps({
                             {{item.id}}
                         </th>
                         <td class="px-6 py-4">
-                            {{ item.office_id }}
+                            {{ item.office.name }}
                         </td>
                         <td class="px-6 py-4">
                             {{ item.name }}

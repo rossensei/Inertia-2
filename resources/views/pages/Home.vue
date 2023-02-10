@@ -28,7 +28,7 @@
         </div>
       </nav>
     <div class="p-8">
-        <h1 class="text-4xl">Home Page</h1>
+        <h1 class="text-4xl">This is an Inventory System Application</h1>
     </div>
 </template>
 

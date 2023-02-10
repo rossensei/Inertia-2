@@ -17,7 +17,7 @@ class OfficeFactory extends Factory
     public function definition()
     {
         return [
-            'name' => fake()->name(),
+            'name' => fake()->word(),
             'office_head' => fake()->randomElement(["1","2","3","4","5"]),
             'building' => fake()->word()
         ];

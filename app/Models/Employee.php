@@ -13,6 +13,6 @@ class Employee extends Model
 
 
     public function offices() {
-        return $this->hasMany('App\Models\Office');
+        return $this->hasMany('App\Models\Office', 'office_head');
     }
 }

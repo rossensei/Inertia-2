@@ -9,7 +9,9 @@ class ItemController extends Controller
 {
     public function index() {
 
-        $items = Item::orderBy('name')->get();
+        $items = Item::orderBy('name')
+                ->with('office')
+                ->get();
 
         return inertia("Items",[
             'items' => $items
